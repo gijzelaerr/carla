@@ -1,9 +1,10 @@
 
-ALL=notebook
 
-.PHONY=install
+.PHONY=install notebook
 
-.virtualenv/:
+all: notebook
+
+.virtualenv:
 	virtualenv -p python3 .virtualenv
 
 install: .virtualenv
