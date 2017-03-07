@@ -1,0 +1,6 @@
+notebook
+pandas
+scipy
+numpy
+scikit-learn
+xlrd
